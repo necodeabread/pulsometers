@@ -1,0 +1,42 @@
+.feedback {
+    padding-top: 103px;
+    &__header {
+        text-align: center;
+        color: #0d0d0d;
+        text-transform: uppercase;
+        font-size: 30px;
+        padding-bottom: 70px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-around;
+        align-items: top;
+        margin-bottom: 102px;
+    }
+    &__photo {
+        width: 169px;
+        height: 169px;
+    }
+    &__text-wrapper {
+        width: 650px;
+        word-wrap: break-word;
+    }
+    &__name {
+        font-size: 18px;
+        color: #0d0d0d;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    &__status {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+        padding-bottom: 20px;
+    }
+    &__message {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+}
