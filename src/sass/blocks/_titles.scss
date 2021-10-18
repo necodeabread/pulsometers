@@ -12,11 +12,11 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 768px) {
     .title {
         &_left {
             text-align: center;
-            font-size: 32px;
+            font-size: 36px;
             padding-top: 60px;
         }
     }

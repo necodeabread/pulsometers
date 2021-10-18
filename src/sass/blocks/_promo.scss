@@ -54,7 +54,7 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 768px) {
     .promo {
         &__wrapper {
             display: flex;
@@ -70,16 +70,16 @@
         }
         &__icon {
             margin: 0 auto;
-            font-size: 20px;
+            font-size: 28px;
             width: 180px;
-            padding-top: 40px;
+            padding-top: 60px;
             img {
-                width: 100px;
-                height: 100px;
+                width: 150px;
+                height: 150px;
             }
         }
         &__link {
-            font-size: 20px;
+            font-size: 28px;
         }
     }
 }

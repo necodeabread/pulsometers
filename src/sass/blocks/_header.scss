@@ -35,22 +35,26 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .header {
         flex-direction: column;
         justify-content: space-around;
         &__official {
-            font-size: 18px;
+            font-size: 24px;
             span {
-                font-size: 24px;
+                font-size: 32px;
             }
         }
+        &__logo {
+            width: 50%;
+        }
         &__phone {
-            font-size: 22px;
+            font-size: 36px;
+            padding-bottom: 20px;
         }
         &__contacts {
             align-items: center;
-            height: 100px;
+            height: 175px;
             justify-content: space-between;
         }
     }

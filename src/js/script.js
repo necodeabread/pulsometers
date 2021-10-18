@@ -3,7 +3,7 @@
 $(function(){
     $('.carousel__inner').slick({
         speed: 1000,
-        adaptiveHeight: true,
+        adaptiveHeight: true,   
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/chevron-left-proper.svg" alt="" width="31" height="50"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="icons/chevron-right-proper.svg" alt="" width="31" height="50"></button>',
         responsive: [
@@ -11,9 +11,9 @@ $(function(){
                 breakpoint: 768,
                 settings: {
                     dots: true,
-                    arrows: false
+                    arrows: false,
                 }
-            }
+            },
         ]
     });
 
