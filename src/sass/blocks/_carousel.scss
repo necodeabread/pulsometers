@@ -36,9 +36,10 @@
             
             box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
             text-indent: -9999px;
+            transition: 0.4s all;
         }
         li.slick-active button {
-            background-color: red;
+            background-color: $main-color;
             border: none;
             box-shadow: 4px 4px 8px rgba(256, 0, 0, .6);
         }
