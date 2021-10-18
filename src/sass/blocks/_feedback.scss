@@ -35,3 +35,31 @@
         line-height: 16px;
     }
 }
+
+@media (max-width: 768px) {
+    .feedback {
+        &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__photo {
+            width: 250px;
+            height: 280px;
+            padding-bottom: 30px;
+        }
+        &__name, &__status, &__message {
+            text-align: center;
+        }
+        &__name {
+            font-size: 32px;
+        }
+        &__status {
+            font-size: 28px;
+        }
+        &__message {
+            font-size: 28px;
+            line-height: 28px;
+        }
+    }
+}
