@@ -1,11 +1,6 @@
 .feedback {
-    padding-top: 103px;
-    &__header {
-        text-align: center;
-        color: #0d0d0d;
-        text-transform: uppercase;
-        font-size: 30px;
-        padding-bottom: 70px;
+    &__items {
+        margin-top: 70px;
     }
     &__item {
         display: flex;

@@ -21,10 +21,27 @@
         left: auto;
         right: -66px;
     }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        button {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background-color: #fff;
+            margin-top: 15px;
+            margin-right: 5px;
+            margin-left: 5px;
+            
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
+            text-indent: -9999px;
+        }
+        li.slick-active button {
+            background-color: red;
+            border: none;
+            box-shadow: 4px 4px 8px rgba(256, 0, 0, .6);
+        }
+    }   
 }
 
-@media (max-width: 426px) {
-    .carousel {
-
-    }
-}
