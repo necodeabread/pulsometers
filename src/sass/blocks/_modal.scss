@@ -36,6 +36,13 @@
         font-weight: 500;
         text-align: center;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        margin-bottom: 15px;
+    }
 }
 
 #consultation, #order, #thanks {
