@@ -48,3 +48,22 @@
 #consultation, #order, #thanks {
     display: none;
 }
+
+#thanks.modal {
+    min-height: 145px;
+}
+
+@media ( max-width: 768px) {
+    .modal {
+        width: 80%;
+        &__close {
+            display: none;
+        }
+        &__subtitle {
+            font-size: 28px;
+        }
+        &__description {
+            font-size: 21px;
+        }
+    }    
+}

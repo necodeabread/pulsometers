@@ -51,7 +51,11 @@ $(function(){
             $('.overlay, #order').fadeIn('slow');
         })
     });
-
+    $('body').on('touchstart', function(e) {
+        if(!$(e.target).closest('.modal').length && !$(e.target).is('.modal')) {
+            $('.overlay').fadeOut('slow');
+        }
+    });
     function validateForms(form) {
         $(form).validate({
             rules: {
@@ -86,7 +90,7 @@ $(function(){
                 data: $(this).serialize()
             }).done(function() {
                 $(this).find("input").val("");
-                $('consultation, #order').fadeOut();
+                $('#consultation, #order').fadeOut();
                 $('.overlay, #thanks').fadeIn('slow');
 
                 $('form').trigger('reset');
