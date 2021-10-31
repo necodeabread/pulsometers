@@ -21,6 +21,12 @@
                 display: block;
                 margin: 0 auto;
             }
+            &_animated {
+                animation: heartbeat 2s ease infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
         }
         &-header {
             padding-top: 38px;
