@@ -29,7 +29,7 @@ $(function(){
             $(this).on('click', function(e) {
                 e.preventDefault();
                 $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
-                $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
+                $('.catalog-item__list-container').eq(i).toggleClass('catalog-item__list-container_active');
             });
         });
     }
@@ -109,6 +109,9 @@ $(function(){
     //SMOOTH SCROLL AND PAGEUP
 
     $(window).scroll(function() {
+        if($('body').width() < 768) {
+            return false;
+        }
         if ($(this).scrollTop() > 1600) {
             $('.pageup').fadeIn();
         } else {
